@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaRota Guys-Contatti e sponsor</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <img src="C:\Users\User\Desktop\rota_tommaso20262027_INFO\esercitazioni\01-esercitazione HTML_CSS\img\logoSquad.jpeg" alt="Logo ufficiale della squadra" class="logo">
+        <h1>Contatti & Sponsor</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <a href="index.html">HomePage</a>
+            <a href="roster.html">Roster Giocatori</a>
+            <a href="calendario.html">Calendario Incontri</a>
+            <a href="merchandising.html">Merchandising</a>
+            <a href="contatti.html">Contatti e sponsor</a>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>I Nostri Sponsor</h2>
+            <p>Un ringraziamento speciale a chi ha collaborato con noi:<em>CoinVault</em>,<em>BurgerByte</em> e <em>StreamHype</em></p>
+
+            <div class="sponsor-logos">
+                <img src="C:\Users\User\Desktop\rota_tommaso20262027_INFO\esercitazioni\01-esercitazione HTML_CSS\img\sponsor1.jpeg" alt="Logo sponsor CoinVault">
+                <img src="C:\Users\User\Desktop\rota_tommaso20262027_INFO\esercitazioni\01-esercitazione HTML_CSS\img\sponsor2.jpeg" alt="Logo sponsor BurgerByte">
+                <img src="C:\Users\User\Desktop\rota_tommaso20262027_INFO\esercitazioni\01-esercitazione HTML_CSS\img\sponsor3.jpeg" alt="Logo sponsor StreamHype">
+            </div>
+        </section>
+
+        <section>
+            <h2>Scrivici un messaggio o un'email</h2>
+            <p>Vuoi diventare nostro sponsor o fare un provino per il team?Compila il modulo sottostante</p>
+
+            <form action="#"method="post">
+                <div class="form-group">
+                    <label for="nome">Nome e Cognome</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email di contatto:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <p>Motivo del contatto:</p>
+                    <label>
+                        <input type="radio"name="motivo" value="sponsor" checked>Proposta Sponsor
+                    </label>
+                    <label>
+                        <input type="radio"name="motivo" value="altro">Altro
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label for="messaggio">Messaggio:</label>
+                    <textarea id="messaggio"name="messaggio" rows="5" required></textarea>
+                </div>
+
+                <button type="submit">Invia Messaggio</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CaRota Guys eSport. Tutti i diritti sono riservati</p>
+    </footer>
+    
+</body>
+</html>
